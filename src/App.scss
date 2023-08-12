@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+$bg: rgb(0, 0, 0);
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto" , sans-serif;
+    color: white;
+}
+
+.header{
+    background-color: $bg;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+    svg{
+        color: white;
+        font-size: larger;
+        cursor: pointer;
+    }
+    img{
+        height: 70%;
+    }
+    div{
+        width: 100%;
+        margin-left: 4vmax;
+    }
+    a{
+        margin: 1vmax;
+        font-size: 1.3rem;
+        font-weight: 300;
+    }
+}
